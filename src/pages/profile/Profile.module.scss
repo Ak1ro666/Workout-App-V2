@@ -1,0 +1,42 @@
+@import 'src/assets/styles/variables';
+
+.before_after {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	max-width: 560px;
+	margin: 0 auto;
+	@media (max-width: $mobile) {
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	> div {
+		width: 50%;
+		display: grid;
+		place-items: center;
+		@media (max-width: $mobile) {
+			width: 48%;
+		}
+	}
+
+	img {
+		border-radius: 10px;
+		pointer-events: none;
+		user-select: none;
+	}
+
+	.heading {
+		margin-bottom: 0.5rem;
+	}
+}
+
+.center {
+	display: grid;
+	place-items: center;
+	margin: 6px 0 18px;
+
+	> img {
+		margin-bottom: 5px;
+	}
+}

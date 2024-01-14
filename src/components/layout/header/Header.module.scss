@@ -1,0 +1,25 @@
+@import 'src/assets/styles/variables';
+
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	> a {
+		background-color: transparent;
+		border: none;
+		outline: none;
+		cursor: pointer;
+		color: #fff;
+		font-size: 29px;
+	}
+
+	> button {
+		background-color: transparent;
+		border: none;
+		outline: none;
+		cursor: pointer;
+		color: #fff;
+		font-size: 29px;
+	}
+}

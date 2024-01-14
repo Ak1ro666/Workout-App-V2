@@ -1,0 +1,30 @@
+@import 'src/assets/styles/animations';
+@import 'src/assets/styles/variables';
+
+.alert {
+	width: 60%;
+	background-color: #5be7c4;
+	color: #252a34;
+	margin-bottom: 1.5rem;
+	display: block;
+	animation: notification 1.6s forwards;
+	padding: 10px;
+	border-radius: 10px;
+	position: absolute;
+	top: -325px;
+	right: 25px;
+
+	&.error {
+		background-color: #ff2e63;
+		color: $white;
+	}
+
+	&.info {
+		background-color: #50c1e9;
+	}
+
+	&.warning {
+		background-color: #f75940;
+		color: $white;
+	}
+}
